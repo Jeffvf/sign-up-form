@@ -24,6 +24,7 @@
 }
 
 .title{
+    color: white;
     display: flex;
     flex-wrap: nowrap;
     background-color: rgba(0, 0, 0, 0.3);
@@ -37,9 +38,9 @@
 
 #forms{
     display:flex;
-    background-color: black;
     width: 70vw;
     height: 100vh;
+    flex-wrap: wrap;
 }
 
 a{
@@ -49,4 +50,12 @@ a{
 
 footer{
     margin-top: auto;
+}
+
+#about{
+    padding: 40px;
+}
+
+#about h1:nth-child(3){
+    margin-top: 40px;
 }
