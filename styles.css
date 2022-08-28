@@ -39,6 +39,11 @@
     height: 100vh;
 }
 
+a{
+    color:white;
+    
+}
+
 footer{
     margin-top: auto;
 }
