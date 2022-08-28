@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital@1&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -30,6 +32,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
+    font-family: 'Itim', cursive;
 }
 
 #forms{
