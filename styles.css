@@ -1,0 +1,13 @@
+#sign-up{
+    display: flex;
+    flex-direction: row;
+}
+
+#site-info{
+    background-image: url(https://i.pinimg.com/originals/f3/74/9d/f3749d5b4e3bf8abf87c2008b27c2f6c.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+    background-position: center;
+    height: 100vh;
+}
