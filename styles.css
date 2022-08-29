@@ -43,6 +43,11 @@
     flex-wrap: wrap;
 }
 
+div > h1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 a{
     color:white;
     
@@ -53,9 +58,15 @@ footer{
 }
 
 #about{
-    padding: 40px;
+    height: 25vh;
+    background-color: rgb(189, 189, 189);
 }
 
 #about h1:nth-child(3){
     margin-top: 40px;
+}
+
+#forms-structure{
+    height: 75vh;
+    display:flex;
 }
