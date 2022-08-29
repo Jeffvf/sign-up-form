@@ -58,15 +58,20 @@ footer{
 }
 
 #about{
-    height: 25vh;
+    height: 30vh;
     background-color: rgb(189, 189, 189);
+    padding-top: 40px;
 }
 
 #about h1:nth-child(3){
     margin-top: 40px;
 }
 
-#forms-structure{
-    height: 75vh;
-    display:flex;
+input{
+    border-color: black;
 }
+
+#forms-content{
+    height: 40vh;
+}
+
