@@ -68,10 +68,19 @@ footer{
 }
 
 input{
-    border-color: black;
-    border-radius: 8px;
+    border-radius: 5px;
     height: 20px;
     width: 200px;
+}
+
+input:enabled{
+    outline: none;
+    border-color: beige;
+}
+
+input:enabled:focus{
+    outline: none;
+    border-color: blueviolet;
 }
 
 #forms-content{
