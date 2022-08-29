@@ -69,14 +69,22 @@ footer{
 
 input{
     border-color: black;
+    border-radius: 8px;
+    height: 20px;
+    width: 200px;
 }
 
 #forms-content{
-    height: 30vh;
+    height: 70vh;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh
 }
 
 #submit{
-    height: 40vh;
     background-color: rgb(244 242 242);
 }
 
@@ -90,6 +98,7 @@ button{
 
 .submit-items{
     margin: 50px;
+    height: 27vh
 }
 
 .log-in{
