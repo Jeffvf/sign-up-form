@@ -84,8 +84,15 @@ button{
     background-color: rgb(45, 76, 212);
     border-radius: 8px;
     font-size: 16px;
-    margin: 20px;
     padding: 20px;
     color: white;
+}
+
+.submit-items{
+    margin: 50px;
+}
+
+.log-in{
+    color:rgb(45, 76, 212)
 }
 
