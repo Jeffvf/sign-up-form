@@ -41,6 +41,7 @@
     width: 70vw;
     height: 100vh;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 div > h1{
@@ -59,8 +60,7 @@ footer{
 
 #about{
     height: 30vh;
-    background-color: rgb(189, 189, 189);
-    padding-top: 40px;
+    background-color: rgb(244 242 242);
 }
 
 #about h1:nth-child(3){
@@ -72,6 +72,20 @@ input{
 }
 
 #forms-content{
+    height: 30vh;
+}
+
+#submit{
     height: 40vh;
+    background-color: rgb(244 242 242);
+}
+
+button{
+    background-color: rgb(45, 76, 212);
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
 }
 
