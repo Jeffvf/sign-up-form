@@ -120,11 +120,16 @@ button{
 }
 
 .submit-items{
-    margin: 50px;
-    height: 27vh
+    height: 27vh;
+}
+
+.submit-items > button, p{
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .log-in{
     color:rgb(45, 76, 212)
 }
+
 
